@@ -1,0 +1,18 @@
+Creating PostGIS Piabanha and United States (NHDPlus region 03N) Water Information Systems databases:
+
+- Install PostgreSQL 9 with PostGIS 2
+- Create PostGIS databases piabanha and united_states
+- On each database:
+ -- run the SQL "CriaTiposFuncoes.sql" and "CriaTabelas.sql"
+ -- get the tables contents from https://dl.dropboxusercontent.com/u/28191667/PiabanhaTables.zip (piabanha database) or https://dl.dropboxusercontent.com/u/28191667/UnitedStatesTables.zip (united_states database)
+ -- unzip the files to a local directory
+ -- edit "GeraTabelas.sql" to point to the actual location of the txt tables images and run the query
+
+Creating MontanteJusante QGIS plugin (on Windows):
+
+- Install QGIS 2.8 or more recent version
+- get the deployed plugin from https://dl.dropboxusercontent.com/u/28191667/DeployedMontanteJusantePlugin.zip
+- unzip the deployed plugin and copy the contents to c:\Users\xxx\.qgis2\python\plugins\
+- activate the plugin on QGIS
+
+

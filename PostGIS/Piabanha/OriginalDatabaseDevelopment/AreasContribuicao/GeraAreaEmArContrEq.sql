@@ -1,0 +1,1 @@
+﻿UPDATE ar_contr_eq SET area = ST_Area(geomproj)

@@ -1,0 +1,1 @@
+﻿ALTER TABLE hidrografia ADD compr_foz_rio double precision

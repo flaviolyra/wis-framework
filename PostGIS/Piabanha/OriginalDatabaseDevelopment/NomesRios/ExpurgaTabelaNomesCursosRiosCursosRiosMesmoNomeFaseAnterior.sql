@@ -1,0 +1,1 @@
+﻿DELETE FROM nomes_cursos_rios WHERE fase_id_nomes = 2 AND gid IN (SELECT gid FROM nomes_cursos_rios WHERE fase_id_nomes < 2)

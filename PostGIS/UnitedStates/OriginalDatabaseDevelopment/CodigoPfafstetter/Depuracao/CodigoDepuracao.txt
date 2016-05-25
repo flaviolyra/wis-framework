@@ -1,0 +1,29 @@
+Rotina: codifica_interbacia
+
+  parametros text;
+  string_nos text;
+  -- sinaliza os parametros de entrada da função - depuração
+  IF afl_term_ident IS NULL THEN
+    parametros := codigo || ' ' || id_trecho || ' ' || id_no_limite || ' ' || afluencia_terminal;
+  ELSE
+    parametros := codigo || ' ' || id_trecho || ' ' || id_no_limite || ' ' || afluencia_terminal || '  ' || array_to_string(afl_term_ident, ',', '*');
+  END IF;
+  RAISE NOTICE 'chama codifica_interbacia (%)',parametros;
+  -- escreve a lista de nós - depuração
+  string_nos := '';
+  FOREACH nc IN ARRAY nos_confls
+  LOOP
+    string_nos := string_nos || nc.id_no || '; ' || nc.num_afl || '; ' || array_to_string(nc.afl_codif, ',') || ': ';
+  END LOOP;
+  RAISE NOTICE 'bacia: %', string_nos;
+
+Rotina: codifica_pfafstetter
+
+  string_nos text;
+  -- escreve a lista de nós - depuração
+  string_nos := '';
+  FOREACH nc IN ARRAY nos_confls
+  LOOP
+    string_nos := string_nos || nc.id_no || '; ' || nc.num_afl || '; ' || array_to_string(nc.afl_codif, ',') || ': ';
+  END LOOP;
+  RAISE NOTICE 'bacia: %', string_nos;

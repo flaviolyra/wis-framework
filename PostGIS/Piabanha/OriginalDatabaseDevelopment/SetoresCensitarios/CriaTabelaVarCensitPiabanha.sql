@@ -1,0 +1,1 @@
+﻿CREATE TABLE var_censit_piabanha (gid serial PRIMARY KEY, gid_set_agr integer, id_var integer, valor double precision) WITH (OIDS=FALSE)

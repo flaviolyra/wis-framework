@@ -1,0 +1,10 @@
+﻿UPDATE hidrografia SET fromnode = vaa.fromnode
+FROM nhdv2_attributes.plusflowlinevaa AS vaa WHERE hidrografia.comid = vaa.comid;
+UPDATE hidrografia SET tonode = vaa.tonode
+FROM nhdv2_attributes.plusflowlinevaa AS vaa WHERE hidrografia.comid = vaa.comid;
+UPDATE hidrografia SET divergence = vaa.divergence
+FROM nhdv2_attributes.plusflowlinevaa AS vaa WHERE hidrografia.comid = vaa.comid;
+UPDATE hidrografia SET lengthkm = vaa.lengthkm
+FROM nhdv2_attributes.plusflowlinevaa AS vaa WHERE hidrografia.comid = vaa.comid;
+UPDATE hidrografia SET areasqkm = vaa.areasqkm
+FROM nhdv2_attributes.plusflowlinevaa AS vaa WHERE hidrografia.comid = vaa.comid;

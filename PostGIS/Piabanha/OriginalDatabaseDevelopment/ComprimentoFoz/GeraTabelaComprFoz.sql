@@ -1,0 +1,1 @@
+﻿SELECT acumula_compr_foz (3590, 0.)

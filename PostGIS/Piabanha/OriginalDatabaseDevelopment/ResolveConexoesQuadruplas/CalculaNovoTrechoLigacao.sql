@@ -1,0 +1,1 @@
+﻿UPDATE nos_quatro_conexoes SET geom_ntr_lig = ST_MakeLine(geom_npt_confl, geom_pt_confl);

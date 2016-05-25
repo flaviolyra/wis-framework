@@ -1,0 +1,1 @@
+﻿UPDATE areacontrib_9 SET geomproj_uni = (ST_Dump(geomproj)).geom

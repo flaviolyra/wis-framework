@@ -1,0 +1,1 @@
+﻿ALTER TABLE areacontrib_9 ALTER gid_tr TYPE integer

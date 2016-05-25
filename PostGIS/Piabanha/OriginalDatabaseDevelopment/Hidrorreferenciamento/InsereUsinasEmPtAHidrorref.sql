@@ -1,0 +1,2 @@
+﻿INSERT INTO pt_a_hidrorref (num, tipo, nome, nome_alt, nome_rio, corio, hr_dir_ind, geomproj, dist_max)
+SELECT num, 'usina', nome, nome_alt, nome_rio, corio, 'direto', geomproj, 1000. FROM usinas ORDER BY num

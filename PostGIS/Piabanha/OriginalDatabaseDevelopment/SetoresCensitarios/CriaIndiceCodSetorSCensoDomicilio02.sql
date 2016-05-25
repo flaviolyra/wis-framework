@@ -1,0 +1,1 @@
+﻿CREATE INDEX censo_domicilio02_cod_setor_btree ON censo_domicilio02 USING btree (cod_setor)

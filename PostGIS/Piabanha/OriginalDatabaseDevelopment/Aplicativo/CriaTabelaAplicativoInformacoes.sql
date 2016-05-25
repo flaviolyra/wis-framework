@@ -1,0 +1,2 @@
+﻿CREATE TABLE aplicativo_informacoes (gid serial PRIMARY KEY, variavel character varying(30), topologia character varying(20), forma character varying(20),
+  tabela character varying(20), tabela_chave character varying(20)) WITH (OIDS=FALSE)

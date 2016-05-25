@@ -1,0 +1,1 @@
+﻿CREATE TABLE municipios_a_excluir (gid serial PRIMARY KEY, cd_geocodm character varying(20), nm_municip character varying(60)) WITH (OIDS=FALSE)

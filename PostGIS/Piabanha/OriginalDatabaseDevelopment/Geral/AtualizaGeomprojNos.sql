@@ -1,0 +1,1 @@
+﻿UPDATE nos SET geomproj = ST_Transform(geom, 32723);

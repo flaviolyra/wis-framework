@@ -1,0 +1,1 @@
+﻿SELECT cria_arvore_ar(3590);

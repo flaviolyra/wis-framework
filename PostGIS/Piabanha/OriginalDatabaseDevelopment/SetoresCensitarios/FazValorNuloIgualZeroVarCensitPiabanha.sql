@@ -1,0 +1,1 @@
+﻿UPDATE var_censit_piabanha SET valor = 0. WHERE valor IS NULL

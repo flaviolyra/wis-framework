@@ -1,0 +1,1 @@
+﻿CREATE TABLE arvore_comprimentos_0 AS SELECT * FROM arvore_comprimentos

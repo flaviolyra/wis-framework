@@ -1,0 +1,2 @@
+﻿CREATE TABLE ar_contr_eq (gid integer PRIMARY KEY, gid_tr integer, cobacia character varying(30), cobacianum bigint,
+  geom geometry(Polygon,4326), geomproj geometry(Polygon,32723), area double precision, area_mont double precision) WITH (OIDS=FALSE)

@@ -1,0 +1,1 @@
+﻿UPDATE hidrografia SET cobacianum = rpad(cobacia,15,'0')::bigint

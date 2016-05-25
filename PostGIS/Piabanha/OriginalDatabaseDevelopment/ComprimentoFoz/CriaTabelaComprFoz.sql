@@ -1,0 +1,1 @@
+﻿CREATE TABLE compr_foz (gid integer PRIMARY KEY, compr double precision) WITH (OIDS=FALSE)

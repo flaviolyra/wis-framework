@@ -1,0 +1,1 @@
+﻿SELECT codifica_pfafstetter_cm('79278', 3590, TRUE)

@@ -1,0 +1,2 @@
+﻿INSERT INTO nomes_rios_ordenados (gid_rio, nome_dre, fase_id_nomes, cobacia, cocursodag, area_mont)
+  SELECT gid_rio, nome_dre, fase_id_nomes, cobac_jus, cocurs_jus, area_mont_jus FROM nomes_rios_pontos_jus_mont ORDER BY cocurs_jus, area_mont_jus DESC

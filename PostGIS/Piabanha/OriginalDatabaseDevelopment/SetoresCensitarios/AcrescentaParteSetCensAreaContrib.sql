@@ -1,0 +1,1 @@
+﻿ALTER TABLE set_cens_area_contrib ADD parte double precision

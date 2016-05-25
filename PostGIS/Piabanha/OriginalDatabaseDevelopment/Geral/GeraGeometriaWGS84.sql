@@ -1,0 +1,1 @@
+﻿UPDATE folha_anta SET geomproj = ST_Transform(geomproj_69, 32723)

@@ -1,0 +1,1 @@
+﻿CREATE TABLE area_sem_trecho (gid integer, geomproj geometry(Polygon,32723)) WITH (OIDS=FALSE)

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/MontanteJusante" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

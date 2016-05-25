@@ -1,0 +1,1 @@
+﻿DELETE FROM mapa_trecho

@@ -1,0 +1,1 @@
+﻿UPDATE rios SET corio = cocursodag || '_' || (gid - gid0)::text

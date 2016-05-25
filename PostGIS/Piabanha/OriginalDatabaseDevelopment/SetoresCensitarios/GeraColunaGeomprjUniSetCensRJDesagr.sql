@@ -1,0 +1,1 @@
+﻿UPDATE set_cens_rj_desagr SET geomproj_uni = ST_Transform(geom_uni, 32723)

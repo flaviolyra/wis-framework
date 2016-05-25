@@ -1,0 +1,1 @@
+﻿ALTER TABLE trechos_conf_mult ADD geom geometry

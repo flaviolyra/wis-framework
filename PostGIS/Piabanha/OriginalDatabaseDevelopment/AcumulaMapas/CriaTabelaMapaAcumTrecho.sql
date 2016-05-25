@@ -1,0 +1,1 @@
+﻿CREATE TABLE mapa_acum_trecho (gid_tr integer, car integer, valacum double precision) WITH (OIDS=FALSE)

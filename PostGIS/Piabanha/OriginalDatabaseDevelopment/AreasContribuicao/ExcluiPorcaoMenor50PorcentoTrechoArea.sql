@@ -1,0 +1,1 @@
+﻿DELETE FROM trecho_area WHERE porcao_tr < 0.5

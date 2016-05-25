@@ -1,0 +1,1 @@
+﻿UPDATE linhas_a_fundir SET geom_fusao = une_linhas(geom_curta, geom_outra);

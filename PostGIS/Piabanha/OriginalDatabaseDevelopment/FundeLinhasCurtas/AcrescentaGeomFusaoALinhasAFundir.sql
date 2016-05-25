@@ -1,0 +1,1 @@
+﻿ALTER TABLE linhas_a_fundir ADD geom_fusao geometry(Linestring, 32723);

@@ -1,0 +1,2 @@
+﻿CREATE TABLE afluentes_7534 AS
+SELECT * FROM rio_principal('7534', 10452202, TRUE, NULL, FALSE)

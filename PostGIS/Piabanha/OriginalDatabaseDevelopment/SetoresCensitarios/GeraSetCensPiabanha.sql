@@ -1,0 +1,2 @@
+﻿CREATE TABLE set_cens_piabanha AS
+SELECT DISTINCT gid_set_agr FROM set_cens_area_contrib

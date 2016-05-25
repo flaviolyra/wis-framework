@@ -1,0 +1,1 @@
+﻿COPY variaveis_censitarias (id, variavel, tabela) FROM 'c:\piabanha\censo2010\variaveiscensitarias.txt'

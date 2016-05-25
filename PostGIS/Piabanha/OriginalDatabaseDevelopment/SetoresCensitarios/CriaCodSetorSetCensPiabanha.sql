@@ -1,0 +1,1 @@
+﻿ALTER TABLE set_cens_piabanha ADD cod_setor character varying(20)

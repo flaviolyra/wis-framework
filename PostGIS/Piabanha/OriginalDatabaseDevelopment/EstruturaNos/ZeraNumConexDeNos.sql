@@ -1,0 +1,1 @@
+﻿UPDATE nos SET num_conex = 0;

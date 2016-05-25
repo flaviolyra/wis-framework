@@ -1,0 +1,1 @@
+﻿UPDATE areacontrib_9 SET gid_tr = NULL

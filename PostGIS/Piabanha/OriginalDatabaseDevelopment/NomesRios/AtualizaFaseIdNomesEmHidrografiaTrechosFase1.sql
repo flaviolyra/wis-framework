@@ -1,0 +1,1 @@
+﻿UPDATE hidrografia SET fase_id_nomes = 1 WHERE gid IN (SELECT gid FROM nomes_fase1_trechos_rios)

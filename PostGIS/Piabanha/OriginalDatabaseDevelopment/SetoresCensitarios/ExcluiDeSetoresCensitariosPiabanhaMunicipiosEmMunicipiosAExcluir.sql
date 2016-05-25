@@ -1,0 +1,1 @@
+﻿DELETE FROM setores_censitarios_piabanha WHERE cd_geocodm IN (SELECT cd_geocodm FROM municipios_a_excluir)

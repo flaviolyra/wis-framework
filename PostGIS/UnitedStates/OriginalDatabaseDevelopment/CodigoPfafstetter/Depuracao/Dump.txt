@@ -1,0 +1,603 @@
+NOTA:  chama codifica_interbacia (73697 8783933 250094914 false)
+NOTA:  chama codifica_interbacia (736971 8783933 250021799 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369711 8783933 250022074 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697121 8785929 250022744 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369713 8783899 250021949 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697131 8783899 250022064 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697133 8783719 250021995 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697135 8783675 250022872 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697137 8786235 250021972 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736971381 8783581 250021950 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697139 8783579 250021949 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697141 8783563 250021948 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697143 8785923 250022741 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369715 8783565 250021885 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697151 8783565 250021930 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697153 8783429 250021885 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697161 8783371 250021858 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369717 8783375 250021859 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697171 8783375 250021860 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697173 8783373 250021859 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369719 8783329 250021799 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697191 8783329 250021841 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736971921 8783229 250021800 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697193 8783227 250021799 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, id_no_limite, afluencia_terminal, afl_term_ident)"
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369721 8783181 250021781 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697221 8783193 250021786 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697223 8785909 250022734 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697225 8783209 250021784 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736972251 8783209 250021791 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736972253 8783189 250021784 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697227 8783183 250021782 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369723 8783171 250021732 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369725 8783039 250021701 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697251 8783039 250021704 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697253 8782973 250021701 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369727 8782979 250021703 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697291 8782933 250021688 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697293 8782917 250021683 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697295 8782891 250021678 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736973 8783173 250021670 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369731 8783173 250021780 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369733 8783027 250021720 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697341 8783033 250021722 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736973421 8783035 250021723 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697343 8783075 250021740 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697345 8783067 250021737 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369735 8782997 250021711 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697361 8782869 250021671 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369737 8782867 250021670 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369741 8782837 250021628 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697411 8782837 250021661 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697413 8782739 250021628 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697421 8785895 250022730 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697423 8782687 250021614 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697425 8782697 250021616 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369743 8782683 250021576 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697431 8782683 250021612 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697433 8782611 250021583 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697435 8782591 250021576 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697441 8782557 250021564 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369745 8785893 250022729 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697461 8782523 250021520 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369747 8782521 250021553 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697481 8782541 250021558 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736975 8782857 250094899 true  933020111)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369751 8782857 250021666 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697521 8782821 250021655 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697523 8782823 250021656 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369753 8782813 250021652 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697541 8782715 250021621 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697543 8782627 250021589 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697545 8782545 250021184 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975451 8782545 250021560 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975453 8782359 250021184 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697547 8778195 250021173 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975471 8778195 250021178 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975473 8778177 250021173 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975481 8778407 250021223 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975483 8778071 250021143 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975491 8778411 250021224 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369755 8782717 250021601 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697551 8782717 250021622 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (736975521 8782669 250021606 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697553 8782667 250021601 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369757 8782655 250093915 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697581 166737580 250093913 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697583 933020034 250021634 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (73697585 8782871 250021672 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369759 933020084 250094899 true  933020111)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+NOTA:  chama codifica_interbacia (7369761 933020111 250093914 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697611 933020111 250094924 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697613 933020118 250093914 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697621 8782479 250021542 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697623 8782465 250021539 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736976241 933020037 250094852 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+SQL statement "SELECT codifica_pfafstetter(codigo || numsb, afrp.id_tr_afl, TRUE)"
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697625 933020047 250021526 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697627 8782375 250021513 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736976291 8782333 250021188 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369763 933020052 250021543 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369765 8782433 250021176 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697651 8782433 250021530 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697653 8782313 250021185 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697655 8778189 250021176 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369767 8778123 250021116 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697671 8778123 250021160 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697673 8778005 250021116 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736977 933020070 250093925 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369771 933020070 250093919 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697711 933020070 250094885 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697713 166737598 250093919 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369773 933020086 250094901 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697741 933020119 250094932 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736977421 8782491 250021545 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697743 933020033 250021565 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697761 933020096 250093917 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697763 8782737 250021627 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736977641 8782827 250021658 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697765 8782745 250021631 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736977661 8782747 250021632 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (73697767 8782789 250021644 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736977671 8782789 250021643 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (736977673 8782791 250021644 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369777 933020116 250094929 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, idno_cnf, FALSE, NULL)"
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369779 166737621 250093925 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+NOTA:  chama codifica_interbacia (7369781 933020077 250094866 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697811 933020077 250094892 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697813 166737617 250093924 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697815 933020112 250094886 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697817 933020051 250094866 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697821 933020045 250021144 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369783 933020021 250021141 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697831 933020021 250021145 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697833 8778067 250021141 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697841 8778037 250021130 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369785 8778039 250021111 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697851 8778039 250021131 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697853 8778017 250021122 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697855 8777981 250021111 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697861 8777971 250021108 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (7369787 8777969 250021107 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697881 8777917 250021094 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 101 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697891 8777919 250021095 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (73697893 8777913 250021093 false)
+CONTEXT:  função PL/pgSQL "codifica_pfafstetter" linha 88 em atribuição
+função PL/pgSQL "codifica_pfafstetter" linha 109 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 130 em atribuição
+NOTA:  chama codifica_interbacia (736979 933020072 250094914 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+NOTA:  chama codifica_interbacia (7369791 933020072 250094887 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+NOTA:  chama codifica_interbacia (7369793 166737623 250093921 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+NOTA:  chama codifica_interbacia (7369795 166737627 250093929 false)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 117 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+NOTA:  chama codifica_interbacia (7369797 933020099 250094913 true  933020098)
+CONTEXT:  função PL/pgSQL "codifica_interbacia" linha 120 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+NOTA:  chama codifica_interbacia (7369799 933020100 250094914 false)
+CONTEXT:  SQL statement "SELECT codifica_interbacia(codigo || numsb, idtr_ini_interbac, id_no_limite, afluencia_terminal, afl_term_ident)"
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+função PL/pgSQL "codifica_interbacia" linha 139 em atribuição
+
+Total query runtime: 3583 ms.
+1 row retrieved.
+

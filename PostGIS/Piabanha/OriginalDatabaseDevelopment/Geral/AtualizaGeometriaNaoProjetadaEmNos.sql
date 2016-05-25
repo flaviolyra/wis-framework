@@ -1,0 +1,1 @@
+﻿UPDATE nos SET geom = ST_Transform(geomproj, 4326);

@@ -1,0 +1,2 @@
+﻿CREATE TABLE hidrografia17 AS SELECT * FROM hidrografia;
+CREATE TABLE nos17 AS SELECT * FROM nos

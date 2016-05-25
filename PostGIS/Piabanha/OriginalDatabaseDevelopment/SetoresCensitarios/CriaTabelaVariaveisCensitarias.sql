@@ -1,0 +1,1 @@
+﻿CREATE TABLE variaveis_censitarias (id integer PRIMARY KEY, variavel character varying(50), tabela character varying(50), descricao text) WITH (OIDS=FALSE)

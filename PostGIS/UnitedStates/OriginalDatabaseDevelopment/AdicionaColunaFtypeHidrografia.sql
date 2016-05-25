@@ -1,0 +1,1 @@
+﻿ALTER TABLE hidrografia ADD ftype character varying(24)

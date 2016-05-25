@@ -1,0 +1,9 @@
+A determinação da codificação Pfafstetter em um ambiente com confluências múltiplas é baseado na seguinte estratégia, implementada pelas rotinas codifica_pfafstetter e codifica_interbacia:
+
+1 - A partir do trecho principal, a rotina rio_principal determina e codifica (se bacia_principal for verdadeiro, se não só determina) o trajeto do rio principal, produzindo um conjunto de afluências a ele, na forma de registros tipo rioprinc, com a seguinte estrutura: identificador do nó; número total de afluentes ao nó (não conta a afluência do rio principal a montante); identificador do trecho montante no rio principal; área a montante no rio principal; identificador do trecho afluente, área a montante do trecho afluente.
+
+2 - deste conjunto é extraído um subconjunto correspondente aos quatro maiores afluentes, por sua área a montante (podem ser menos de quatro, se o número total de afluências for menor), posteriormente classificados em ordem decrescente de sua área a montante do trecho principal (de jusante para montante, portanto) e armazenados em uma matriz de registros tipo rioprinc chamada afluentes.
+
+3 - da matriz afluentes é produzida uma matriz chamada nos_confls, de registros de confluências de subbacias, tipo no_confl, com a seguinte estrutura: identificador do nó; número total de afluentes; matriz com os identificadores dos trechos afluentes principais que confluem a ele. A matriz também está classificada de jusante para montante.
+
+4 - a classificação das 4 subbacias principais e de suas interbacias a jusante é feita seguindo-se a matriz afluentes, sincronizada com a de nós confluentes (nos_confls), tal que o id_no de uma e da outra é o mesmo.

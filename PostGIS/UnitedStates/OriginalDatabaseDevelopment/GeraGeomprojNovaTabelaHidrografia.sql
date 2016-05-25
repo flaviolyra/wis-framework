@@ -1,0 +1,1 @@
+﻿UPDATE hidrografia SET geomproj = ST_Transform(geom, 5070);

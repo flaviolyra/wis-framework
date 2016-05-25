@@ -1,0 +1,1 @@
+﻿UPDATE ar_contr_eq SET geom = ST_Transform(geomproj, 4326)

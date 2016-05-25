@@ -1,0 +1,1 @@
+﻿CREATE TABLE nomes_correspondencia (gid serial PRIMARY KEY, tipo character varying(20), nome_rio character varying(20), corio character varying(20)) WITH (OIDS=FALSE)

@@ -1,0 +1,2 @@
+﻿CREATE TABLE rios (gid serial PRIMARY KEY, gid0 integer, cocursodag character varying(30), pathlength double precision, gnis_id character varying(10),
+ gnis_name character varying(65)) WITH (OIDS=FALSE);

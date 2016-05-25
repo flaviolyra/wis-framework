@@ -1,0 +1,1 @@
+﻿CREATE TABLE uso_acum (gid serial PRIMARY KEY, gid_tr integer, id_uso integer, area double precision) WITH (OIDS=FALSE)

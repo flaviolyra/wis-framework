@@ -1,0 +1,1 @@
+﻿UPDATE hidrografia SET compr = ST_Length(geomproj_uni);

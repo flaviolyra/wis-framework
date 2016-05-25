@@ -1,0 +1,1 @@
+﻿ALTER TABLE areacontrib_9 ADD geomproj_uni geometry(Polygon,32723)

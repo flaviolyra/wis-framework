@@ -1,0 +1,2 @@
+﻿CREATE TABLE nomes_rios_ordenados (gid serial NOT NULL Primary KEY, gid_rio integer, nome_dre character varying(40), fase_id_nomes integer,
+  cobacia character varying(30), cocursodag character varying(30), area_mont double precision, gid0 integer, corio character varying(30)) WITH (OIDS=FALSE)

@@ -1,0 +1,1 @@
+﻿ALTER TABLE nomes_rios_pontos_jus_mont ADD fase_id_nomes integer

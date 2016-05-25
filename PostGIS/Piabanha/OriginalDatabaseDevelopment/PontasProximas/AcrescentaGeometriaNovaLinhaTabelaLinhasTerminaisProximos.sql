@@ -1,0 +1,1 @@
+﻿ALTER TABLE linhas_terminais_proximos ADD nova_geom_linha2 geometry(Linestring, 32723)

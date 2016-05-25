@@ -1,0 +1,1 @@
+﻿DELETE FROM trecho_area WHERE compr = 0.
