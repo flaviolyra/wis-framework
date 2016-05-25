@@ -1,6 +1,10 @@
+Installing PostgreSQL, PostGIS and QuantumGIS on Windows 7 64 bits:
+
+- get the binaries from https://dl.dropboxusercontent.com/u/28191667/PostgreSQL-PostGIS-QuantumGIS.zip
+- install PostgreSQL 9.3, PostGIS 2.2 and QuantumGIS 8.5
+
 Creating PostGIS Piabanha and United States (NHDPlus region 03N) Water Information Systems databases:
 
-- Install PostgreSQL 9 with PostGIS 2
 - Create PostGIS databases piabanha and united_states
 - On each database:
  -- run the SQL "CriaTiposFuncoes.sql" and "CriaTabelas.sql"
@@ -8,11 +12,20 @@ Creating PostGIS Piabanha and United States (NHDPlus region 03N) Water Informati
  -- unzip the files to a local directory
  -- edit "GeraTabelas.sql" to point to the actual location of the txt tables images and run the query
 
-Creating MontanteJusante QGIS plugin (on Windows):
+Creating MontanteJusante QGIS plugin:
 
-- Install QGIS 2.8 or more recent version
 - get the deployed plugin from https://dl.dropboxusercontent.com/u/28191667/DeployedMontanteJusantePlugin.zip
 - unzip the deployed plugin and copy the contents to c:\Users\xxx\.qgis2\python\plugins\
 - activate the plugin on QGIS
 
+Using the Plugin:
+
+- load hidrografia (from piabanha or from united_states) on a QGIS project
+- select layer hidrografia
+- click on the MontanteJusante tool (the green watershed tool) and on a river reach in hidrografia
+- on piabanha:
+ -- select one or more items among "Variaveis Censitarias Montante", "Uso do Solo Montante", "Usinas Montante", "Usinas Jusante", "Barragens Montante", "Barragens Jusante", "Postos Fluviometricos Montante", "Postos Fluviométricos Jusante", "Bacia Montante", "Curso Principal Jusante" or "Trechos Montante"
+- on united_states:
+ --select one or more items among "Bacia Montante", "Curso Principal Jusante", "Trechos Montante" or "Curso Total Jusante"
+-- the selected items will be exhibited as new project layers
 
