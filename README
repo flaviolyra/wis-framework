@@ -23,9 +23,5 @@ Using the Plugin:
 - load hidrografia (from piabanha or from united_states) on a QGIS project
 - select layer hidrografia
 - click on the MontanteJusante tool (the green watershed tool) and on a river reach in hidrografia
-- on piabanha:
- -- select one or more items among "Variaveis Censitarias Montante", "Uso do Solo Montante", "Usinas Montante", "Usinas Jusante", "Barragens Montante", "Barragens Jusante", "Postos Fluviometricos Montante", "Postos Fluviométricos Jusante", "Bacia Montante", "Curso Principal Jusante" or "Trechos Montante"
-- on united_states:
- --select one or more items among "Bacia Montante", "Curso Principal Jusante", "Trechos Montante" or "Curso Total Jusante"
 -- the selected items will be exhibited as new project layers
 

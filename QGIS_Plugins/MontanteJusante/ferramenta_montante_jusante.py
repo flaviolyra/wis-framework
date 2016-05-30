@@ -27,6 +27,7 @@ from qgis.gui import QgsMapToolEmitPoint
 from qgis.core import QgsRectangle, QgsDataSourceURI, QgsVectorLayer, QgsMapLayerRegistry, QgsFillSymbolV2
 from PyQt4.QtGui import QMessageBox, QTreeWidgetItem
 from montante_jusante_dialog import MontanteJusanteDialog
+import psycopg2
 
 class ErroCamada(Exception):
     pass
@@ -35,6 +36,12 @@ class ExcecaoNadaSelecionado(Exception):
     pass
 
 class ErroMapaInvalido(Exception):
+    pass
+
+class ErroAcessoBaseDados(Exception):
+    pass
+
+class ErroAcessoTabelaAplicativoInformacoes(Exception):
     pass
 
 class FerramentaMontanteJusante(QgsMapToolEmitPoint):
@@ -46,9 +53,12 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
         
     def canvasPressEvent(self, e):
         try:
+            # se a camada corrente nao for hidrografia sinaliza erro
             self.camada=self.canvas.currentLayer()
             if not self.camada or self.camada.id()[:-17] <> 'hidrografia':
                 raise ErroCamada()
+            # extrai em uri_ex os dados da conexao PostGIS correspondente a camada usada
+            self.uri_ex = QgsDataSourceURI(self.camada.source())
             # seleciona na camada por um quadrado de 4 x 4 pixels em torno do ponto clicado
             ptinfesq = self.canvas.getCoordinateTransform().toMapCoordinates(e.pos().x()-2, e.pos().y()+2)
             ptsupdir = self.canvas.getCoordinateTransform().toMapCoordinates(e.pos().x()+2, e.pos().y()-2)
@@ -62,7 +72,6 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
                 raise ExcecaoNadaSelecionado()
             # pega o trecho com maior area a montante
             trecho = sorted(lst_atr_sel, key = lambda tr: tr[2])[-1]
-            print trecho
             # anota em cobacia o codigo pfafstetter do trecho
             cobacia = trecho[1]
             id_trecho = trecho[6]
@@ -77,32 +86,34 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
                 self.dlg.label.setText("{0} - km {1:.2f}".format(trecho[0].encode(encoding='cp1252'), dist_tr - dist_fozrio))
                 self.dlg.label_2.setText("Codigo: {0}".format(trecho[3]))
             self.dlg.label_3.setText("Area a Montante: {0:.2f} km2".format(trecho[2]))
+            # cria lista de Caracteristicas disponiveis para a base de dados conforme informacoes tabela aplicativo_informacoes
             self.dlg.treeWidget.setHeaderLabels(['Caracteristica', 'Topologia', 'Forma'])
+            try:
+                conn = psycopg2.connect(host=self.uri_ex.host(), port=self.uri_ex.port(), database=self.uri_ex.database(), user=self.uri_ex.username(), password=self.uri_ex.password())
+            except:
+                raise ErroAcessoBaseDados()
+            cur = conn.cursor()
+            try:
+                cur.execute("""SELECT * from aplicativo_informacoes""")
+            except:
+                raise ErroAcessoTabelaAplicativoInformacoes()
+            rows = cur.fetchall()
             itensTabela = []
-            self.var_cens_mont = QTreeWidgetItem(['Variaveis Censitarias', 'Montante', 'Tabela'], 0)
-            itensTabela.append(self.var_cens_mont)
-            self.uso_solo_mont = QTreeWidgetItem(['Uso do Solo', 'Montante', 'Tabela'], 0)
-            itensTabela.append(self.uso_solo_mont)
-            self.usina_mont = QTreeWidgetItem(['Usinas', 'Montante', 'Mapa'], 0)
-            itensTabela.append(self.usina_mont)
-            self.usina_jus = QTreeWidgetItem(['Usinas', 'Jusante', 'Mapa'], 0)
-            itensTabela.append(self.usina_jus) 
-            self.barr_mont = QTreeWidgetItem(['Barragens', 'Montante', 'Mapa'], 0)
-            itensTabela.append(self.barr_mont) 
-            self.barr_jus = QTreeWidgetItem(['Barragens', 'Jusante', 'Mapa'], 0)
-            itensTabela.append(self.barr_jus)
-            self.posto_flu_mont = QTreeWidgetItem(['Postos Fluviometricos', 'Montante', 'Mapa'], 0)
-            itensTabela.append(self.posto_flu_mont)
-            self.posto_flu_jus = QTreeWidgetItem(['Postos Fluviometricos', 'Jusante', 'Mapa'], 0)
-            itensTabela.append(self.posto_flu_jus) 
-            self.bac_mont = QTreeWidgetItem(['Bacia', 'Montante', 'Mapa'], 0)
-            itensTabela.append(self.bac_mont) 
-            self.curso_princ_jus = QTreeWidgetItem(['Curso Principal', 'Jusante', 'Mapa'], 0)
-            itensTabela.append(self.curso_princ_jus) 
-            self.trechos_mont = QTreeWidgetItem(['Trechos', 'Montante', 'Mapa'], 0)
-            itensTabela.append(self.trechos_mont) 
-            self.curso_tot_jus = QTreeWidgetItem(['Curso Total', 'Jusante', 'Mapa'], 0)
-            itensTabela.append(self.curso_tot_jus) 
+            itensTabelaMetodo = []
+            for row in rows:
+                itensLinha = []
+                itensLinha.append(row[1])
+                itensLinha.append(row[2])
+                itensLinha.append(row[3])
+                # gera o par item da tabela - metodo
+                linhaTabelaMetodo = []
+                itemLista = QTreeWidgetItem(itensLinha, 0)
+                linhaTabelaMetodo.append(itemLista)
+                linhaTabelaMetodo.append(row[6])
+                # acrescenta o item na lista de itens da tabela
+                itensTabela.append(itemLista)
+                # acrescenta o par item da tabela - metodo na lista de itens da tabela e metodos
+                itensTabelaMetodo.append(linhaTabelaMetodo)
             self.dlg.treeWidget.insertTopLevelItems(0, itensTabela)
             # exibe o dialogo
             self.dlg.show()
@@ -111,38 +122,22 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             # Ve se OK foi pressionado
             if result:
                 # abre um uri da base de dados PosGIS com dados da conexao da camada hidrografia
-                self.uri_ex = QgsDataSourceURI(self.camada.source())
                 self.uri = QgsDataSourceURI()
                 self.uri.setConnection (self.uri_ex.host(), self.uri_ex.port(), self.uri_ex.database(), self.uri_ex.username(), self.uri_ex.password())
                 itens_selecionados = self.dlg.treeWidget.selectedItems()
-                
-                if itens_selecionados.count(self.bac_mont):
-                    self.geraMapaBacia(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.curso_princ_jus):
-                    self.geraCursoPrincipalJusante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.trechos_mont):
-                    self.geraTrechosMontante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.curso_tot_jus):
-                    self.geraCursoTotalJusante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.usina_mont):
-                    self.geraUsinasMontante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.usina_jus):
-                    self.geraUsinasJusante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.barr_mont):
-                    self.geraBarragensMontante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.barr_jus):
-                    self.geraBarragensJusante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.posto_flu_mont):
-                    self.geraFluviometricasMontante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.posto_flu_jus):
-                    self.geraFluviometricasJusante(id_trecho, cobacia, dist_tr)
-                if itens_selecionados.count(self.var_cens_mont):
-                    self.geraTabelaVariaveisCensitarias(id_trecho, cobacia, id_trecho)
-                if itens_selecionados.count(self.uso_solo_mont):
-                    self.geraTabelaUsoSolo(id_trecho, cobacia, id_trecho)
+                for linhaTabelaMetodo in itensTabelaMetodo:
+                    if itens_selecionados.count(linhaTabelaMetodo[0]):
+                        print linhaTabelaMetodo[1]
+                        getattr(self, linhaTabelaMetodo[1])(id_trecho, cobacia, dist_tr, id_trecho)
                 # camada corrente volta a ser hidrografia
                 self.canvas.setCurrentLayer(self.camada)
 
+        except ErroAcessoBaseDados:
+            QMessageBox.warning(None, 'MontanteJusante', 'Nao conseguiu acesso a base de dados', 'OK')
+            
+        except ErroAcessoTabelaAplicativoInformacoes:
+            QMessageBox.warning(None, 'MontanteJusante', 'Nao conseguiu acesso a tabela aplicativo_informacoes', 'OK')
+            
         except ErroCamada:
             QMessageBox.warning(None, 'MontanteJusante', 'Favor selecionar camada Hidrografia', 'OK')
             
@@ -155,7 +150,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
         except ErroMapaInvalido:
             QMessageBox.warning(None, 'MontanteJusante', 'Nao conseguiu criar o mapa', 'OK')
             
-    def geraMapaBacia(self, cotrecho, cobacia, dist):
+    def geraMapaBacia(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela area_contrib_eq - coluna geomproj
         self.uri.setDataSource('public', 'area_contrib', 'geomproj')
         # gera o string sql
@@ -173,7 +168,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
         propriedades['outline_color'] = propriedades['color']
         mapa.rendererV2().setSymbol(QgsFillSymbolV2.createSimple(propriedades))
         
-    def geraCursoPrincipalJusante(self, cotrecho, cobacia, dist):
+    def geraCursoPrincipalJusante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela hidrografia - coluna geomproj_uni
         self.uri.setDataSource('public', 'hidrografia', 'geomproj')
         # gera o string sql
@@ -187,7 +182,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraTrechosMontante(self, cotrecho, cobacia, dist):
+    def geraTrechosMontante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela hidrografia - coluna geomproj_uni
         self.uri.setDataSource('public', 'hidrografia', 'geomproj')
         # gera o string sql
@@ -201,7 +196,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraCursoTotalJusante(self, cotrecho, cobacia, dist):
+    def geraCursoTotalJusante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela hidrografia - coluna geomproj_uni
         self.uri.setDataSource('public', 'hidrografia', 'geomproj')
         # gera o string sql
@@ -215,7 +210,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraUsinasJusante(self, cotrecho, cobacia, dist):
+    def geraUsinasJusante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela usinas - coluna geomproj
         self.uri.setDataSource('public', 'usinas', 'geomproj')
         # gera o string sql
@@ -229,7 +224,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraUsinasMontante(self, cotrecho, cobacia, dist):
+    def geraUsinasMontante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela usinas - coluna geomproj
         self.uri.setDataSource('public', 'usinas', 'geomproj')
         # gera o string sql
@@ -243,7 +238,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraBarragensJusante(self, cotrecho, cobacia, dist):
+    def geraBarragensJusante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela barragens - coluna geomproj
         self.uri.setDataSource('public', 'barragens', 'geomproj')
         # gera o string sql
@@ -257,7 +252,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraBarragensMontante(self, cotrecho, cobacia, dist):
+    def geraBarragensMontante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela barragens - coluna geomproj
         self.uri.setDataSource('public', 'barragens', 'geomproj')
         # gera o string sql
@@ -271,7 +266,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraFluviometricasJusante(self, cotrecho, cobacia, dist):
+    def geraFluviometricasJusante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela fluviometricas - coluna geomproj
         self.uri.setDataSource('public', 'fluviometricas', 'geomproj')
         # gera o string sql
@@ -285,7 +280,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraFluviometricasMontante(self, cotrecho, cobacia, dist):
+    def geraFluviometricasMontante(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela fluviometricas - coluna geomproj
         self.uri.setDataSource('public', 'fluviometricas', 'geomproj')
         # gera o string sql
@@ -299,7 +294,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraTabelaVariaveisCensitarias(self, cotrecho, cobacia, id_trecho):
+    def geraTabelaVariaveisCensitarias(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela uso_acum_exp
         self.uri.setDataSource('public', 'var_censit_acum_exp', None)
         # gera o string sql
@@ -313,7 +308,7 @@ class FerramentaMontanteJusante(QgsMapToolEmitPoint):
             raise ErroMapaInvalido
         QgsMapLayerRegistry.instance().addMapLayer(mapa)
         
-    def geraTabelaUsoSolo(self, cotrecho, cobacia, id_trecho):
+    def geraTabelaUsoSolo(self, cotrecho, cobacia, dist, id_trecho):
         # seleciona a tabela uso_acum_exp
         self.uri.setDataSource('public', 'uso_acum_exp', None)
         # gera o string sql

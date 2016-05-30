@@ -9,6 +9,7 @@ CREATE TABLE aplicativo_informacoes
   forma character varying(20),
   tabela character varying(30),
   tabela_chave character varying(30),
+  metodo character varying(50),
   CONSTRAINT aplicativo_informacoes_pkey PRIMARY KEY (gid )
 )
 WITH (

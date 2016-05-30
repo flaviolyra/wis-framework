@@ -635,6 +635,23 @@ CREATE INDEX nhdwaterbody_geom_gist
   USING gist
   (geom );
 --
+-- Cria Tabela aplicativo_informacoes
+--
+CREATE TABLE aplicativo_informacoes
+(
+  gid serial NOT NULL,
+  variavel character varying(30),
+  topologia character varying(20),
+  forma character varying(20),
+  tabela character varying(30),
+  tabela_chave character varying(30),
+  metodo character varying(50),
+  CONSTRAINT aplicativo_informacoes_pkey PRIMARY KEY (gid )
+)
+WITH (
+  OIDS=FALSE
+);
+--
 -- Cria Tabela area_contrib
 --
 CREATE TABLE area_contrib
