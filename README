@@ -23,5 +23,33 @@ Using the Plugin:
 - load hidrografia (from piabanha or from united_states) on a QGIS project
 - select layer hidrografia
 - click on the MontanteJusante tool (the green watershed tool) and on a river reach in hidrografia
+- select one or more information items
 -- the selected items will be exhibited as new project layers
+
+Portuguese Glossary:
+
+agregado - aggregate
+bacia - basin
+barragem - dam
+contorno - boundary
+curso - path
+curva de nivel - contour line
+domicilio - household
+folha de mapeamento - mapping quadrangle
+hidrografia - hydrography
+jusante - downstream
+mapa - map
+montante - upstream
+morador - resident
+particular - private
+permanente - permanent
+posto fluviometrico - gauging station
+rendimento - earning
+rio - river
+setor censitario - census tract
+tabela - table
+trecho - reach
+usina - powerplant
+uso do solo - land cover
+valor - value
 
