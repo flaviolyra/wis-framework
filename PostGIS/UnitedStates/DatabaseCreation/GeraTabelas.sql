@@ -24,6 +24,7 @@ COPY nhdv2_nhd.nhdpointeventfc FROM 'c:\doutorado\formalizacao\prorrogacao\desen
 COPY nhdv2_nhd.nhdreachcode_comid FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\nhdreachcode_comid.txt';
 COPY nhdv2_nhd.nhdreachcrossreference FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\nhdreachcrossreference.txt';
 COPY nhdv2_nhd.nhdwaterbody FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\nhdwaterbody.txt';
+COPY aplicativo_informacoes FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\aplicativo_informacoes.txt';
 COPY area_contrib FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\area_contrib.txt';
 COPY arvore_areas FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\arvore_areas.txt';
 COPY divergencias FROM 'c:\doutorado\formalizacao\prorrogacao\desenvolvimentotese\estadosunidos\tabelas\divergencias.txt';
